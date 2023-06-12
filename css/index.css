@@ -1,0 +1,212 @@
+body{
+    background-color: black;
+    
+}
+.titulo{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    
+}
+.nav-menu{
+    background-color: black;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    position: static;
+}
+.textM{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    margin-left: 42%;
+}
+.iconU{
+    width: 28px;
+    height: 28px;
+
+    border-radius: 15px;
+}
+.iconB{
+    width: 25px;
+    height: 25px;
+}
+.ul-menu{
+    display: flex;
+}
+.menu-li{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(143, 23, 255);
+}
+.icona{
+    margin-left: 46%;
+    margin-top: 5px;
+}
+.iconb{
+    margin-left: 2%;
+    margin-top: 2px;
+    
+}
+.d{
+    width: 380px;
+    height: 590px;
+    margin-left: 75px;
+    margin-top: 25px;
+}
+.img-fondo-peli{
+    margin-left: 22%;
+    opacity: 0.1;
+    width: 100%;
+    height: 100%;
+}
+.nav-pel{
+    display: flex;
+    position: relative;
+}
+.ul-pel{
+    position: absolute;
+}
+.li-pel{
+    display: flex;
+    margin-left: -18%;
+}
+.titulo-pe{
+    display: flex;
+    color: deeppink;
+    font-size: 50px;
+    position: relative;
+    margin-left: 35%;
+    width: 1200px;
+}
+.ti-or-pe{
+    display: flex;
+    color: white;
+    position: absolute;
+
+}
+.marg-tit-or{
+    margin-left: 65%;
+    margin-top: 6%;
+}
+.ul2-pel{
+    display: flex;
+    position: absolute;
+}
+.des-pe{
+    display: flex;
+    color: blanchedalmond;
+    position: absolute;
+    width: 500px;
+}
+.marg-des{
+    margin-top: 80px;
+    margin-left: 500px;
+    margin-top: 351px;
+}
+.txt-cal{
+    display: flex;
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 170px;
+    color: aliceblue;
+    font-size: 21px;
+}
+.votos-pel{
+    color: aliceblue;
+    font-size: 21px;
+}
+.li-votos-pel{
+    display: flex;
+    position: absolute;
+    margin-left: 39%;
+    margin-top: 170px;
+}
+.icone{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    
+}
+.leer-mas{
+    display: flex;
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    width: 200px;
+    margin-left: 1350px;
+    margin-top: 50%;
+}
+.a-leer{
+    text-decoration: none;
+    color: cornsilk;
+}
+.a-leer:hover{
+    color: red;
+}
+.text-fech{
+    display: flex;
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: aliceblue;
+    width: 200px;
+    margin-left: 1150px;
+    margin-top: 0;
+}
+.fec-pel{
+    display: flex;
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: deeppink;
+    width: 120px;
+}
+.marg-fec{
+    margin-left: 1285px;
+}
+
+.h2-txt{
+    color: blueviolet;
+    font-size: 50px;
+    text-align: center;
+    
+}
+.nav-pel-pop{
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    cursor: pointer;
+}
+.ul-tm{
+    display: flow-root;
+    width: 100%;
+}
+.ul-pop{
+    display: flex;
+    width: 100%;
+    animation: cambio 28s infinite;
+}
+.text-pop{
+    color: white;
+    display: inline-block;
+    width: 130px;
+}
+.img-pop{
+    width: 75px;
+    height: 110px;
+    padding-left: -15px;
+    
+}
+
+@keyframes cambio{
+    0%{ margin-right: 0;}
+    25%{ margin-left: -50%}
+    50% {margin-left: -150%}
+    75% {margin-left: -50%;}
+    100% {margin-left: 0}
+}
+.img-pop:hover{
+    transform: scale(1.2);
+    float: center;
+        
+}
+
